@@ -16,7 +16,7 @@ Or clone the the module separately:
     cd modules
     git clone git://github.com/Slaver/vk.git vk
 
-### Update DOMPDF
+### Update module
 
     cd modules/vk
     git submodule update --init
