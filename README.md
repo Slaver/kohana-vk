@@ -1,8 +1,6 @@
 # Auth module for Open API vk.com
 
-Open API is the system for developers of third-party sites, which enables them to authenticate users of vk.com on their websites.
-
-http://vkontakte.ru/club1
+"Open API":http://vkontakte.ru/club1 is the system for developers of third-party sites, which enables them to authenticate users of vk.com on their websites.
 
 ## Installation
 
@@ -35,8 +33,8 @@ Edit `application/bootstrap.php` and add a the module:
 
 ### Get your API ID and password
 
-Create new API at vk.com (http://vkontakte.ru/apps.php?act=add).
-Get unique API ID, password and secret key (http://vkontakte.ru/apps.php#act=admin) and put it in `config/vk.php`.
+Create new API at "vk.com":http://vkontakte.ru/apps.php?act=add.
+"Get unique API ID, password and secret key":http://vkontakte.ru/apps.php#act=admin and put it in `config/vk.php`.
 
 ### Create xd_receiver.htm
 
