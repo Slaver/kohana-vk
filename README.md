@@ -9,7 +9,7 @@ First, add the submodule to your Git application:
     git submodule add git://github.com/Slaver/vk.git modules/vk
     git submodule update --init
 
-Or clone the the module separately:
+Or clone the module separately:
 
     cd modules
     git clone git://github.com/Slaver/vk.git vk
@@ -21,7 +21,7 @@ Or clone the the module separately:
 
 ### Configuration
 
-Edit `application/bootstrap.php` and add a the module:
+Edit `application/bootstrap.php` and add the module:
 
     Kohana::modules(array(
         ...
@@ -38,7 +38,7 @@ Create new API at [vk.com](http://vkontakte.ru/apps.php?act=add).
 
 ### Create xd_receiver.htm
 
-Create file xd_receiver.htm in root directory of your site. VK authentication doesn't work without this file
+Create file xd_receiver.htm in the root directory of your site. VK authentication doesn't work without this file
 
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
